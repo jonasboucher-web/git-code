@@ -3,7 +3,7 @@ import random
 # Card values
 CARD_VALUES = {
     '2': 2, '3': 3, '4': 4, '5': 5, '6': 6, '7': 7, '8': 8, '9': 9, '10': 10,
-    'J': 10, 'Q': 10, 'K': 10, 'A': 11
+    'Jack': 10, 'Queen': 10, 'King': 10, 'ace': 11
 }
 
 def create_deck():
