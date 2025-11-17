@@ -64,7 +64,7 @@ def play_blackjack():
             print("Blackjack! Player wins!")
             return
         if player_value > 21:
-            print("Player busts! Dealer wins!")
+            print("Player dies! Dealer wins!")
             return
 
         action = input("Do you want to (H)it or (S)tand? ").lower()
@@ -87,7 +87,7 @@ def play_blackjack():
     dealer_value = calculate_hand_value(dealer_hand)
 
     if dealer_value > 21:
-        print("Dealer busts! Player wins!")
+        print("Dealer dies! Player wins!")
     elif player_value > dealer_value:
         print("Player wins!")
     elif dealer_value > player_value:
