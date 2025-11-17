@@ -61,7 +61,7 @@ def play_blackjack():
     while True:
         player_value = calculate_hand_value(player_hand)
         if player_value == 21:
-            print("Blackjack! Player wins!")
+            print("Blackjack! Player wins! Because dealer is a loser")
             return
         if player_value > 21:
             print("Player dies! Dealer wins!")
