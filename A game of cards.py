@@ -8,7 +8,7 @@ CARD_VALUES = {
 
 def create_deck():
     """Creates a standard 52-card deck."""
-    suits = ['Hearts', 'Diamonds', 'Clubs', 'Spades']
+    suits = ['heart attack', 'pancreas failure', 'cancer', 'Brain failure']
     ranks = list(CARD_VALUES.keys())
     deck = [(rank, suit) for rank in ranks for suit in suits]
     random.shuffle(deck)
